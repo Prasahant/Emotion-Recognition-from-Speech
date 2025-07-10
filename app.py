@@ -50,3 +50,4 @@ if uploaded_file is not None:
     emotion = EMOTIONS.get(predicted_label, "Unknown")
 
     st.success(f"Predicted Emotion: **{emotion}**")
+    # to run this use command in the terminal (streamlit run app.py)
